@@ -1,0 +1,416 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+
+:root{
+    --white:#fff;
+    --black: #171717;
+    --bg-color: #1c1c1e;
+    
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 3rem;
+    position: fixed;
+    width: 100%;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: var(--black);
+    padding-right: 3rem;
+    font-size: small;
+    font-weight: 700;
+}
+
+/* logo */
+
+.logo{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.main-logo{
+    background-color: black;
+    color: white;
+}
+
+.main-logos{
+    background-color: white;
+    color: gray;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+
+.features-block{
+    width: 20rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.features-block-header{
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+}
+
+.about-block1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.about-block2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text{
+    line-height: 1.4rem;
+    line-break: auto;
+    text-align: initial;
+    width: 20rem;
+    
+}
+
+.about-texts{
+    line-height: 1.4rem;
+    text-align: initial;
+    width: 17rem;
+    margin-right: 10rem;
+    
+}
+.about-text p{
+    font-weight: 600;
+    font-size: x-large;
+    padding-bottom: 1.0rem;
+}
+
+.about-texts p{
+    font-weight: 600;
+    font-size: x-large;
+    padding-bottom: 1.0rem;
+}
+
+.tempoary{
+    background-image: url("../images/shoe-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20rem;
+    padding-top: 0;
+    margin-top: 0;
+}
+.button{
+    background-color: var(--black);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    width: 12rem;
+    border-radius: 5rem;
+    margin-top: 1.5rem;
+}
+
+
+.shoe-image img{
+    width: 24rem;
+    height: 15rem;
+}
+.shoe-images img{
+    width: 26rem;
+    height: 15rem;
+}
+
+.product-details{
+    margin-top: 4.5rem;
+    margin-left: 10rem;
+}
+.product-details p{
+    font-size: xx-large;
+}
+
+.product-details-list  {
+    margin-top: 1.5rem;
+}
+
+.testimonial{
+    width: 100%;
+    padding-top: 7rem ;
+}
+.testimonial-header{
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+.testimonial-blocks{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.testimonial-block{
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1rem;
+    height:8.5rem ;
+    width: 18rem;
+   
+}
+
+.testimonial-block-image img{
+    width: 5rem;
+    border-radius: 35%;
+    padding-left: 0.5rem;
+}
+
+.testimonial-block-images img{
+    width: 4rem;
+    border-radius: 45%;
+    padding-left: 0.5rem;
+}
+
+.testimonial-customer{
+    font-size: large;
+    font-weight: 600;
+    padding-bottom: 0.7rem;
+}
+.testimonial-block-text{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.testimony{
+    font-size: smaller;
+    text-align: initial;
+}
+
+.body-text{
+    font-size: xx-large;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    width: 25rem;
+    line-height: 3rem;
+}
+
+.hero-flex{
+    text-align: initial;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.main-hero{
+    margin-top: 6rem;
+}
+
+.shoe-pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+}
+
+.shoe-pictures img{
+    width: 9rem;
+    height: 6rem;
+    padding-right: 0.2rem;
+    cursor: pointer;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+    padding-top: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 4rem;
+}
+
+
+.footer-links a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: small;
+    line-height: 1.3rem;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+
+}
+
+.socials img{
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem ;
+    margin-top: 0.5rem ;
+}
+.footer-about{
+    width: 25rem;
+    line-height: 1.2rem;
+}
+
+.footer-about-main{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-header{
+    font-weight: 700;
+}
+
+.full-stop{
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+/* responsive design */
+
+@media (max-width: 480px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .shoe-pictures{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .shoe-pictures img{
+        width: 9rem;
+        height: 6rem;
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+    }
+    .product-details p{
+        font-size: large;
+    }
+    product-details{
+        margin-top: 4.5rem;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .product-details-list li{
+        font-size: small;
+        line-height: 1.2rem;
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .testimonial-blocks{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 8rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonial-block{
+        margin-bottom: 1.25rem;
+        font-size: small;
+    }
+    .testimonial-header{
+        text-align: center;
+        font-size: large;
+        margin-bottom: 2rem;
+    } 
+    .about-block2{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+    }
+    
+    .about-block1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+    }
+    .features-block{
+        margin-bottom: 3rem;
+        font-size: small;
+    }
+    .features-block-header{
+        font-weight: 600;
+        padding-bottom: 1rem;
+        /* width: 50%; */
+    }
+    .testimonial-customer{
+        font-size: medium;
+    }
+    .about-text p, .about-texts p{
+        font-size: medium ;
+    }
+}
