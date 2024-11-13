@@ -519,7 +519,7 @@
     }
     
     .shoe-image img{
-        width: fit-content;
+        max-width: fit-content;
         height: 10rem;
     }
 
