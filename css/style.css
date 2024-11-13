@@ -514,12 +514,12 @@
     }
 
     .shoe-image img{
-        width: 15rem;
+        width: fit-content;
         height: 10rem ;
     }
     
     .shoe-image img{
-        width: 15rem ;
+        width: 10rem ;
         height: 10rem;
     }
 
