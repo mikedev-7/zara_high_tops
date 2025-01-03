@@ -39,12 +39,11 @@
     text-decoration: none;
     color: var(--black);
     padding-right: 3rem;
-    font-size: me;
     font-weight: 700;
 }
 
 .sidebar{
-    display: hidden;
+    display: none !important ;
     position: fixed;
     list-style: none;
     top: 0;
@@ -71,7 +70,7 @@
     display: none;
 }
 
-@media(max-width:800px){
+@media(max-width:840px){
     .hideOnMobile{
         display: none;
     }
@@ -90,6 +89,8 @@
         width: 100%;
     }
 }
+
+
 /* logo */
 
 .logo{
